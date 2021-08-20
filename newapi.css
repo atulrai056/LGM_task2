@@ -6,15 +6,15 @@ body{
 {
     position: relative;
     height:600px;
-    background-image:linear-gradient(skyblue,white);
+    background-image:linear-gradient(green,white);
     left:0px;
-
+   
 }
 .heder
 {
     height:100px;
     width:100%;
-    background-image:linear-gradient(skyblue,white) ;
+    background-image:linear-gradient(rgb(224, 162, 26),white) ;
     border-bottom:2px solid #00ff99;
     padding-top: 50px;
     font-size: 30px;
@@ -32,7 +32,9 @@ button{
     height:35px;
     width:100px;
 
-    background-image: linear-gradient(green,white)
+    background-image: linear-gradient(black,white);
+    border-radius: 10px;
+
     
 }
 #data
@@ -41,18 +43,25 @@ button{
     height:450px;
     text-align: right;
     justify-content: center;
-    display: flex;
+    display: flex;   
+    
 }
 .table
 {
     width:800px;
+
 }
 table{
     color:slategrey;
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
     font: 700;
+    
 }
 table tr :hover{
-    background-color:skyblue;
+    background-color:lightgray;
+
+}
+img{
+    clip-path: circle();
 }
